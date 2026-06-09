@@ -1,0 +1,21 @@
+{
+  "name": "@ngs/tui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@ngs/engine": "*",
+    "@ngs/providers": "*",
+    "ink": "^5.1.0",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12"
+  }
+}
